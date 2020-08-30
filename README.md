@@ -22,7 +22,7 @@ John Robinson, [Bayfront Media](https://www.bayfrontmedia.com)
 
 ## Requirements
 
-* PHP > 7.1.0
+* PHP >= 7.1.0
 
 ## Installation
 

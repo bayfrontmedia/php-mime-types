@@ -1,12 +1,10 @@
 <?php
+
 /**
- * Simple class used to detect the appropriate MIME type of a file based on it's extension.
- *
- * @version     1.0.0
- * @link        https://github.com/bayfrontmedia/php-mime-types
- * @license     MIT https://opensource.org/licenses/MIT
- * @copyright   2020 Bayfront Media https://www.bayfrontmedia.com
- * @author      John Robinson <john@bayfrontmedia.com>
+ * @package php-mime-types
+ * @link https://github.com/bayfrontmedia/php-mime-types
+ * @author John Robinson <john@bayfrontmedia.com>
+ * @copyright 2020 Bayfront Media
  */
 
 namespace Bayfront\MimeTypes;
@@ -99,7 +97,7 @@ class MimeType
     ];
 
     /**
-     * Return array of all MIME types
+     * Return array of all MIME types.
      *
      * @return array
      */
@@ -110,7 +108,7 @@ class MimeType
     }
 
     /**
-     * Adds new MIME type definitions
+     * Adds new MIME type definitions.
      *
      * @param array $types (Array whose keys are the file extension and values are the MIME type string)
      *
@@ -123,7 +121,7 @@ class MimeType
     }
 
     /**
-     * Return extension of a given file, or empty string if not existing
+     * Return extension of a given file, or empty string if not existing.
      *
      * @param string $file
      *
@@ -146,7 +144,7 @@ class MimeType
     }
 
     /**
-     * Checks if a file has a given extension
+     * Checks if a file has a given extension.
      *
      * @param string $extension
      * @param string $file
@@ -160,7 +158,7 @@ class MimeType
     }
 
     /**
-     * Get MIME type from file extension
+     * Get MIME type from file extension.
      *
      * @param string $extension
      * @param string $default (Default MIME type to return if none found for given extension)
@@ -182,7 +180,7 @@ class MimeType
     }
 
     /**
-     * Get MIME type from file name
+     * Get MIME type from file name.
      *
      * @param string $file
      * @param string $default (Default MIME type to return if none found for given extension)
