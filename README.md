@@ -14,7 +14,7 @@ Since MIME types will be detected using the file extension, some file extension 
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/bayfrontmedia/php-array-helpers/blob/master/LICENSE).
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 

@@ -3,7 +3,6 @@
   "description": "Simple class used to detect the appropriate MIME type of a file based on it's extension.",
   "homepage": "https://github.com/bayfrontmedia/php-mime-types",
   "license" : "MIT",
-  "version": "1.0.0",
   "type": "library",
   "keywords": [
     "php",
