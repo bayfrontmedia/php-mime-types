@@ -15,20 +15,21 @@ class MimeType
     /*
      * Array of valid MIME types
      * See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
-     *
-     * Last updated: 2020-07-27
+     * Also see: https://www.iana.org/assignments/media-types/media-types.xhtml
      */
 
     private static $mime_types = [
         'aac' => 'audio/aac',
         'abw' => 'application/x-abiword',
         'arc' => 'application/x-freearc',
+        'avif' => 'image/avif',
         'avi' => 'video/x-msvideo',
         'azw' => 'application/vnd.amazon.ebook',
         'bin' => 'application/octet-stream',
         'bmp' => 'image/bmp',
         'bz' => 'application/x-bzip',
         'bz2' => 'application/x-bzip2',
+        'cda' => 'application/x-cdf',
         'csh' => 'application/x-csh',
         'css' => 'text/css',
         'csv' => 'text/csv',
@@ -52,6 +53,7 @@ class MimeType
         'midi' => 'audio/midi audio/x-midi',
         'mjs' => 'text/javascript',
         'mp3' => 'audio/mpeg',
+        'mp4' => 'video/mp4',
         'mpeg' => 'video/mpeg',
         'mpkg' => 'application/vnd.apple.installer+xml',
         'odp' => 'application/vnd.oasis.opendocument.presentation',
