@@ -21,6 +21,10 @@
   "support": {
     "issues": "https://github.com/bayfrontmedia/php-mime-types/issues"
   },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
   "require": {
     "php": ">=7.1.0"
   },
