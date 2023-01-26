@@ -1,12 +1,5 @@
 <?php
 
-/**
- * @package php-mime-types
- * @link https://github.com/bayfrontmedia/php-mime-types
- * @author John Robinson <john@bayfrontmedia.com>
- * @copyright 2020 Bayfront Media
- */
-
 namespace Bayfront\MimeTypes;
 
 class MimeType
@@ -18,7 +11,7 @@ class MimeType
      * Also see: https://www.iana.org/assignments/media-types/media-types.xhtml
      */
 
-    private static $mime_types = [
+    private static array $mime_types = [
         'aac' => 'audio/aac',
         'abw' => 'application/x-abiword',
         'arc' => 'application/x-freearc',
